@@ -3,7 +3,7 @@
     max-width: 470px;
     background: linear-gradient(135deg,#00feba,#5b548a);
     color: #fff;
-    margin: 100px auto 0;
+    margin: auto;
     border-radius: 100px;
     padding: 40px 35px;
     text-align: center;
@@ -55,14 +55,22 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
+    padding: 0 20px;
+    margin-top: 50px;
 }
 
-.details col{
+
+.col {
+    text-align: left;
+    align-items: center;
     display: flex;
-    padding: 0 10px ;
 }
 
 .col img{
-    width: auto;
-    padding: 0 2px;
+    width: 100px;
+
+}
+
+.humidity, .wind{
+    font-size: 23px;
 }
