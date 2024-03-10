@@ -25,5 +25,12 @@ function populateProjects() {
     });
 }
 
+function changeActiveClass(e){
+    console.log("Hello World");
+    console.log(e);
+    let listClass = event.classList;
+    listClass.changeActiveClass = "active";
+}
+
 // Call the populateProjects function when the page loads
 document.addEventListener("DOMContentLoaded", populateProjects);
